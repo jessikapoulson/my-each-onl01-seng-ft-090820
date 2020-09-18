@@ -1,8 +1,8 @@
 def my_each(array)
-  arr_member = 0
-  while arr_member < array.length
-    yield(array[arr_member])
-    arr_member = arr_member + 1
+  i = 0
+  while i < array.length
+    yield(array[i])
+    i = i + 1
   end
   collection
 end
